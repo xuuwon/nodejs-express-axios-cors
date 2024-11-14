@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-express-axios-cors",
+  "version": "1.0.0",
+  "description": "1. **Express 사용법 이해**: 기본 Node.js 서버를 Express 프레임워크로 변환하고, Express의 미들웨어와 라우팅 기능을 활용할 수 있다.\r 2. **Axios를 사용한 HTTP 요청 처리**: Axios를 사용하여 클라이언트와 서버 간의 HTTP 요청을 효과적으로 처리하는 방법을 이해하고 적용할 수 있다.\r 3. **CORS 설정 이해**: CORS 설정을 통해 다양한 출처에서의 요청을 허용하고, 클라이언트와 서버 간의 통신을 원활하게 할 수 있다.\r 4. **서버와 클라이언트 통합**: Express 서버와 Axios 클라이언트를 통합하여 데이터의 가져오기, 업데이트, 삭제를 구현할 수 있다.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
